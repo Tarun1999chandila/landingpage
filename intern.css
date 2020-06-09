@@ -1,0 +1,130 @@
+* {
+  font-family: "Segoe UI";
+}
+.container {
+  max-width: unset !important;
+}
+h3 {
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: "Segoe UI";
+}
+#nav {
+  box-shadow: 0 0px 28px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+#div1 {
+  background-color: #324370;
+  height: 1200px;
+  padding: 0%;
+}
+#nav {
+  background-color: #243b55;
+}
+#ul1 {
+  list-style-type: none;
+  padding: 0%;
+}
+#ul1 li a {
+  text-decoration: none;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#ul1 li {
+  height: 30px;
+  margin-top: 20px;
+  padding-top: 3px;
+}
+
+#ul1 li:hover {
+  background-image: linear-gradient(
+    to right top,
+    #ffc300,
+    #ff9c1b,
+    #ff723b,
+    #ff4359,
+    #ff0077
+  );
+  box-shadow: 0 0px 28px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  border-color: white;
+  padding: 0%;
+}
+#btn {
+  background-color: #324370;
+  margin-left: 40px;
+
+  border: solid 2px white;
+}
+#ul2 {
+  list-style-type: none;
+  padding: 0%;
+}
+#ul2 li a {
+  text-decoration: none;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: white;
+}
+#ul2 li {
+  height: 30px;
+  margin-top: 20px;
+  padding-top: 3px;
+}
+#btn2 {
+  color: #707070;
+  padding: 10px;
+  width: 150px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#btn3 {
+  background-image: linear-gradient(
+    to right top,
+    #ffc300,
+    #ff9c1b,
+    #ff723b,
+    #ff4359,
+    #ff0077
+  );
+  padding: 10px;
+  width: 150px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  h3 {
+    margin-left: 10px;
+  }
+  #ul1 li a {
+    margin-left: 10px;
+  }
+  #btn {
+    margin-left: 10px;
+  }
+  #ul2 li a {
+    margin-left: 10px;
+  }
+  #btn2 {
+    margin-left: 10px;
+    width: 140px;
+  }
+  #btn3 {
+    margin-left: 10px;
+    width: 140px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  #btn2 {
+    width: 120px;
+  }
+  #btn3 {
+    width: 120px;
+  }
+}
